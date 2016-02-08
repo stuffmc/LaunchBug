@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="64v-bb-SrB">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="Xls-jw-KlS">
+            <objects>
+                <viewController id="64v-bb-SrB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QD9-ku-RhA"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zo8-nw-NjE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="fne-AW-8u8">
+                        <rect key="frame" x="0.0" y="0.0" width="300" height="170"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aZc-ik-bsN">
+                                <rect key="frame" x="0.0" y="61" width="300" height="3"/>
+                                <color key="backgroundColor" red="0.84705882349999995" green="0.0" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.20000000000000001"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="3" id="xao-Mc-1Cc"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w7e-Ci-VZA">
+                                <rect key="frame" x="0.0" y="0.0" width="300" height="63"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgw-PS-OL5">
+                                        <rect key="frame" x="76" y="31" width="148" height="21"/>
+                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="18"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="slideout" translatesAutoresizingMaskIntoConstraints="NO" id="y2W-j4-vOg">
+                                        <rect key="frame" x="16" y="36" width="25" height="13"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Xgw-PS-OL5" firstAttribute="leading" secondItem="y2W-j4-vOg" secondAttribute="trailing" constant="35" id="4W6-yn-69w"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xgw-PS-OL5" secondAttribute="bottom" constant="11" id="4id-Of-9aZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xgw-PS-OL5" secondAttribute="trailing" constant="76" id="699-X1-UII"/>
+                                    <constraint firstAttribute="height" constant="63" id="Kuz-3y-aw0"/>
+                                    <constraint firstItem="Xgw-PS-OL5" firstAttribute="top" secondItem="w7e-Ci-VZA" secondAttribute="top" constant="31" id="NeS-U4-h57"/>
+                                    <constraint firstItem="y2W-j4-vOg" firstAttribute="top" secondItem="w7e-Ci-VZA" secondAttribute="top" constant="36" id="Nl5-jE-sRz"/>
+                                    <constraint firstItem="Xgw-PS-OL5" firstAttribute="centerX" secondItem="w7e-Ci-VZA" secondAttribute="centerX" id="bz0-yk-mMT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w7e-Ci-VZA" firstAttribute="top" secondItem="fne-AW-8u8" secondAttribute="topMargin" id="6nu-VE-I3f"/>
+                            <constraint firstItem="aZc-ik-bsN" firstAttribute="top" secondItem="w7e-Ci-VZA" secondAttribute="bottom" constant="-2" id="HXi-nV-AMA"/>
+                            <constraint firstItem="aZc-ik-bsN" firstAttribute="trailing" secondItem="w7e-Ci-VZA" secondAttribute="trailing" id="VWv-nl-TiS"/>
+                            <constraint firstItem="aZc-ik-bsN" firstAttribute="top" secondItem="QD9-ku-RhA" secondAttribute="bottom" constant="87" id="hnr-EF-sij"/>
+                            <constraint firstItem="aZc-ik-bsN" firstAttribute="leading" secondItem="fne-AW-8u8" secondAttribute="leading" id="kfI-GE-fUm"/>
+                            <constraint firstItem="aZc-ik-bsN" firstAttribute="leading" secondItem="w7e-Ci-VZA" secondAttribute="leading" id="pNm-JZ-esb"/>
+                            <constraint firstAttribute="trailing" secondItem="aZc-ik-bsN" secondAttribute="trailing" id="wLe-XJ-MxT"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="hnr-EF-sij"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cuh-hM-7pd">
+                        <barButtonItem key="leftBarButtonItem" image="slideout" id="TQT-w2-JZD">
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="300" height="170"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xC8-eD-0cZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1468" y="273"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="slideout" width="25" height="13"/>
+    </resources>
+</document>

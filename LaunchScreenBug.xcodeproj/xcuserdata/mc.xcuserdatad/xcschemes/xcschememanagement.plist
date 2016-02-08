@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>App Store.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Beta-Dist.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>Beta.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Dev-Dist.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Dev.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Production-Dist.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Production.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Watch Beta.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Watch Dev.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4C0B7F3C1C22BAC900BBBD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C0B7F7A1C22BD3800BBBD41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C18F4A31BF9DBB400E1424B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C3719421C15AED30000220F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C6204671C28B203008A9F4F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C77FB511B8B3FC70026EA72</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4C86BC0A1BD77677006C9D03</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4CDADA861C15BFA7002EB8EC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

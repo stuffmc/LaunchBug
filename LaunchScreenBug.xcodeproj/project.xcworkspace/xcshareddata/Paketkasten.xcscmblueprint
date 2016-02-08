@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B3313E6CA75325809A91DEF4DCD879E36B615C09",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C43EEC0B7B929E87EE57663303B9C582F4286EB6" : 0,
+    "138E1EDDD35091D50477F9958280AE3E5086A723" : 0,
+    "7F49CE14C11EE7BDAD5A6E7633BA14FA2203528C" : 0,
+    "B3313E6CA75325809A91DEF4DCD879E36B615C09" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3D9127C2-FB09-45CD-B21C-9A7FD79FA448",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C43EEC0B7B929E87EE57663303B9C582F4286EB6" : "PK-Paket\/Sub\/BtLib\/",
+    "138E1EDDD35091D50477F9958280AE3E5086A723" : "PK-Paket\/Sub\/CVLibs\/",
+    "7F49CE14C11EE7BDAD5A6E7633BA14FA2203528C" : "PK-Paket\/Sub\/AstLib\/",
+    "B3313E6CA75325809A91DEF4DCD879E36B615C09" : "PK-Paket\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Paketkasten",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Paketkasten.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/kt.7p-group.com\/git\/mobiles-portal-dhl-ios.cvlibs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "138E1EDDD35091D50477F9958280AE3E5086A723"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/kt.7p-group.com\/git\/mobiles-portal-dhl-ios.pkAstLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F49CE14C11EE7BDAD5A6E7633BA14FA2203528C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/manuel.carrasco-moli@kt.7p-group.com\/git\/mobiles-portal-dhl-ios.pkapp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B3313E6CA75325809A91DEF4DCD879E36B615C09"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/manuel.carrasco-moli@kt.7p-group.com\/git\/mobiles-portal-dhl-ios.pkBtLib.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C43EEC0B7B929E87EE57663303B9C582F4286EB6"
+    }
+  ]
+}
